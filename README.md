@@ -15,3 +15,7 @@ https://github.com/mr-mamun-50/Laravel_multi_level_authentication
 youtube
 --------
 https://www.youtube.com/watch?v=jRq-cGMqmVk
+
+admin name 
+----------
+{{Auth::guard('Admin')->user()->name}}
